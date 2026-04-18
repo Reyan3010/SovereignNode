@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const nodemailer = require('nodemailer');
 
-const targetUrl = 'http://example.com';
+const targetUrl = 'http://www.alumcreekheating.com/';
 
 async function auditSite() {
       console.log(`[AUDITOR] Scanning ${targetUrl} for missing tags...`);
